@@ -62,7 +62,7 @@ function Header() {
           Contact
         </Link>
         <Link
-          to="/admissions"
+          to="/admission"
           className="nav-item btn primary-btn"
           onClick={closeDrawer}
         >

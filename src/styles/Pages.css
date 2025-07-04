@@ -156,7 +156,7 @@
   /* Collapse borders between cells */
   margin-top: 20px;
   margin-bottom: 30px;
-  background-color: #F8F9FA;
+  background-color:white;
   /* Light background for table */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   /* Subtle shadow */
@@ -164,7 +164,7 @@
 
 .admissions-table th,
 .admissions-table td {
-  border: 1px solid #DEE2E6;
+  border: 1px solid black;
   /* Light grey borders */
   padding: 12px;
   text-align: left;
@@ -172,10 +172,10 @@
 }
 
 .admissions-table th {
-  background-color: #E9ECEF;
+  background-color:white;
   /* Slightly darker background for headers */
   font-weight: bold;
-  color: #343A40;
+  color:black;
 }
 
 .admissions-table tbody tr:nth-child(even) {
@@ -193,7 +193,7 @@
   margin-left: 25px;
   margin-bottom: 20px;
   list-style-type: decimal;
-  color: #555;
+  color:black;
 }
 
 .page-container ol li {
