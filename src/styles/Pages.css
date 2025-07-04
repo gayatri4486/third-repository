@@ -6,7 +6,7 @@
   margin: 20px auto;
   /* Center the content with some top/bottom margin */
   padding: 20px;
-  background-color:lightcyan;
+  background-color: lightcyan;
   /* White background for page content */
   border-radius: 8px;
   /* Slightly rounded corners */
@@ -160,7 +160,7 @@
   /* Collapse borders between cells */
   margin-top: 20px;
   margin-bottom: 30px;
-  background-color:white;
+  background-color: #F8F9FA;
   /* Light background for table */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   /* Subtle shadow */
@@ -168,7 +168,7 @@
 
 .admissions-table th,
 .admissions-table td {
-  border: 1px solid black;
+  border: 1px solid #DEE2E6;
   /* Light grey borders */
   padding: 12px;
   text-align: left;
@@ -176,19 +176,19 @@
 }
 
 .admissions-table th {
-  background-color: white;
+  background-color: #E9ECEF;
   /* Slightly darker background for headers */
   font-weight: bold;
-  color: black;
+  color: #343A40;
 }
 
 .admissions-table tbody tr:nth-child(even) {
-  background-color:white;
+  background-color: #F2F2F2;
   /* Zebra striping for rows */
 }
 
 .admissions-table tbody tr:hover {
-  background-color: white;
+  background-color: #E2F0FF;
   /* Highlight row on hover */
 }
 
@@ -197,7 +197,7 @@
   margin-left: 25px;
   margin-bottom: 20px;
   list-style-type: decimal;
-  color: black;
+  color: #555;
 }
 
 .page-container ol li {
