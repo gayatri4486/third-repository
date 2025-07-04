@@ -1,8 +1,10 @@
 /* src/pages/pages.css  */
 .page-container {
   max-width: 960px;
+  /* Max width for content to prevent it from stretching too wide */
   height: 500px;
   margin: 20px auto;
+  /* Center the content with some top/bottom margin */
   padding: 20px;
   background-color:lightcyan;
   /* White background for page content */
@@ -22,10 +24,12 @@
 
 .page-container h2 {
   color: #343A40;
+  /* Darker grey for subheadings */
   margin-top: 30px;
   margin-bottom: 15px;
   font-size: 1.8em;
   border-bottom: 1px solid #eee;
+  /* Light line under subheadings */
   padding-bottom: 10px;
 }
 
@@ -172,19 +176,19 @@
 }
 
 .admissions-table th {
-  background-color:white;
+  background-color: white;
   /* Slightly darker background for headers */
   font-weight: bold;
-  color:black;
+  color: black;
 }
 
 .admissions-table tbody tr:nth-child(even) {
-  background-color: #F2F2F2;
+  background-color:white;
   /* Zebra striping for rows */
 }
 
 .admissions-table tbody tr:hover {
-  background-color: #E2F0FF;
+  background-color: white;
   /* Highlight row on hover */
 }
 
@@ -193,7 +197,7 @@
   margin-left: 25px;
   margin-bottom: 20px;
   list-style-type: decimal;
-  color:black;
+  color: black;
 }
 
 .page-container ol li {
