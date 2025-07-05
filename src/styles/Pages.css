@@ -236,15 +236,6 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-
-/* Adjustments for the new course details table  */
-.course-details-table {
-  /* For example: */
-  /* font-size: 0.9em; */
-}
-
-/* CSS Animation Definitions */
-/* Keyframes for Fade In Up animation */
 @keyframes fadeInUptoBottom {
   from {
     opacity: 0;
