@@ -3,11 +3,11 @@ import './App.css';
 import ChatbotComponent from './components/Chatbot/ChatbotComponents';
 import DeveloperInfoPopup from './components/DeveloperInfo/DeveloperInfoPopup';
 import AboutPage from './Pages/AboutPage';
-import AdmissionsPage from './Pages/AdmissionsPage';
+import AdmissionPage from './Pages/AdmissionPage';
 import ContactPage from './Pages/ContactPage';
 import CoursesPage from './Pages/CoursesPage';
 import HomePage from './Pages/HomePage';
-
+0
 import './styles/pages.css';
 import { useState } from "react";
 import { Route, BrowserRouter as Router, Routes, UNSAFE_withHydrateFallbackProps } from 'react-router-dom';
@@ -38,7 +38,7 @@ const App = () => {
           <Route path="/about" element={<AboutPage/>}></Route>
           <Route path="/courses" element={<CoursesPage/>}></Route>
           <Route path="/contact" element={<ContactPage/>}></Route>
-          <Route path="/admission" element={<AdmissionsPage/>}></Route>
+          <Route path="/admission" element={<AdmissionPage/>}></Route>
         </Routes>
         <ChatbotComponent/>
       </Router>
