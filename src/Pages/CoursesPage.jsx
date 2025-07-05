@@ -1,12 +1,14 @@
 // src/pages/CoursesPage.jsx
-import React from "react";
+import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Headers/Header";
+import Header from '../components/Headers/Header';
+import Footer from '../components/Footer/Footer';
+//import CollegeTourVideo from '../assets/images/college-tour.mp4'; // Your imported video
 const CoursesPage = () => {
   return (
-    <div className="page-container" style={{overflow:"auto"}}>
+    <div>
     <Header/>
+    <div className="page-container" style={{overflow:"auto"}}>
       <h1>Our Academic Programs</h1>
       <p>
         Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.
@@ -15,7 +17,7 @@ const CoursesPage = () => {
       <h2>Discover Campus Life</h2>
       <div className="video-container">
         <video controls width="100%" height="auto" className="course-video">
-            <source src="/videos/college-tour.mp4" type="video/mp4" />
+          <source src="/videos/college-tour.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <p className="video-caption">
@@ -109,8 +111,9 @@ const CoursesPage = () => {
       <div className="call-to-action">
         <p>Have questions about a specific course?</p>
         <Link to="/contact" className="btn">Inquire About Courses</Link>
-        <Footer />
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 }

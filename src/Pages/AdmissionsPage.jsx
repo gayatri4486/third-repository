@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import Header from "../components/Headers/Header";
 import Footer from "../components/Footer/Footer";
 
-const AdmissionsPage = () => {
+const AdmissionPage = () => {
   return (
+    <div>
+      <Header/>
     <div className="page-container" style={{ overflow: "auto" }}>
-      <Header />
       <h1>Admissions at Vivekanand College</h1>
       <p>
         Welcome to the Admissions page of Vivekanand College! We are delighted
@@ -91,8 +92,9 @@ const AdmissionsPage = () => {
         </a> */}
       {/* Replace "https://yourcollegeadmissionportal.com" with a real application portal link */}
       {/* </div> */}
-      <Footer />
+    </div>
+    <Footer/>
     </div>
   );
 };
-export default AdmissionsPage;
+export default AdmissionPage;

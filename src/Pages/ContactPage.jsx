@@ -1,12 +1,14 @@
-
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Headers/Header";
+
+
 
 // src/pages/ContactPage.jsx
 const ContactPage = () => {
   return (
+    <div>
+      <Header/>
     <div className="page-container" style={{overflow:"auto"}}>
-        <Header />
       <h1>Contact Us</h1>
       <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
       <h2>General Enquiries</h2>
@@ -44,7 +46,8 @@ const ContactPage = () => {
       <p>
         [A contact form with fields for Name, Email, Subject, Message can be added here.]
       </p>
-      <Footer />
+    </div>
+    <Footer/>
     </div>
   );
 }

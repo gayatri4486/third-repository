@@ -2,15 +2,16 @@
 import { Link } from "react-router-dom"; // Import Link for internal navigation
 import Header from "../components/Headers/Header";
 import Footer from "../components/Footer/Footer";
-// Add more image imports if needed
+
 const HomePage = () => {
   return (
+    <div>
+      <Header/>
     <div className="page-container" style={{ overflow: "auto" }}>
-        <Header />
       {/* Hero/Banner Section with Image */}
       <div className="hero-section">
         <img
-          src="../images/college-banner.png"
+          src="images/college-banner.png"
           alt="Vivekanand College Campus"
           className="hero-banner-image"
         />
@@ -75,8 +76,9 @@ const HomePage = () => {
         <Link to="/courses" className="btn">
           Explore Courses
         </Link>{" "}
-        <Footer />
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 };

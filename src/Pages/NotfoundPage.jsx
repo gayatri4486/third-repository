@@ -1,7 +1,5 @@
 // src/pages/NotFoundPage.jsx
 import { Link } from "react-router-dom";
-import Header from "../components/Headers/Header";
-import Footer from "../components/Footer/Footer";
 const NotFoundPage = () => {
   return (
     <div
@@ -18,7 +16,6 @@ const NotFoundPage = () => {
       <h1>404 - Page Not Found</h1>
       <p>Oops! The page you're looking for doesn't exist.</p>
       <p>
-        <Header />
         You might want to return to the{" "}
         <Link to="/" className="btn">
           Home Page
@@ -30,7 +27,6 @@ const NotFoundPage = () => {
         alt="Page Not Found"
         style={{ marginTop: "20px", maxWidth: "100%", height: "auto" }}
       />
-      <Footer />
     </div>
   );
 };
