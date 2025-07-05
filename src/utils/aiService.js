@@ -1,5 +1,6 @@
 // src/utils/aiService.js
 const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+
 /**
  * Fetches text embeddings from the Google Gemini API.
  * @param {string} text - The text to embed.
@@ -32,6 +33,7 @@ export const getEmbeddings = async (text) => {
  * @param {number[]} vecB - The second vector.
  * @returns {number} - The cosine similarity score.
  */
+
 // cosine similarity measures how two things are in direction
 export const cosineSimilarity = (vecA, vecB) => {
   let dotProduct = 0;
@@ -39,8 +41,10 @@ export const cosineSimilarity = (vecA, vecB) => {
   let magnitudeB = 0;
   for (let i = 0; i < vecA.length; i++) {
     dotProduct += vecA[i] * vecB[i];
+
     // dotProduct = 0+ 0.7 * 5.9;
     // dotProduct = dotProduct + vecA[i] * vecB[i];
+
     magnitudeA += vecA[i] * vecA[i];
     magnitudeB += vecB[i] * vecB[i];
   }

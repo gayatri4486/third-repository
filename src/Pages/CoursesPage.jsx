@@ -69,7 +69,7 @@ const CoursesPage = () => {
       </ul>
       {/* New Detailed Courses Table */}
       <h2>Program Details & Fee Structure (Annual)</h2>
-      <table className="admissions-table course-details-table"> {/* Reusing admissions-table, adding course-details-table for specific styles */}
+      <table className="admissions-table course-details-table">
         <thead>
           <tr>
             <th>Program Type</th>
