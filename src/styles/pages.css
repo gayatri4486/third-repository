@@ -6,7 +6,7 @@
   margin: 20px auto;
   /* Center the content with some top/bottom margin */
   padding: 20px;
-  background-color: lightcyan;
+  background-color: #FFFFFF;
   /* White background for page content */
   border-radius: 8px;
   /* Slightly rounded corners */
@@ -236,6 +236,9 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+
+/* CSS Animation Definitions */
+/* Keyframes for Fade In Up animation */
 @keyframes fadeInUptoBottom {
   from {
     opacity: 0;
@@ -308,7 +311,7 @@
   /* white-space: nowrap; Prevent content from wrapping inside cells */
   /* -webkit-overflow-scrolling: touch; For smooth scrolling on iOS */
   /* } */
-  */ .admissions-table thead,
+  .admissions-table thead,
   .admissions-table tbody,
   .admissions-table th,
   .admissions-table td,
